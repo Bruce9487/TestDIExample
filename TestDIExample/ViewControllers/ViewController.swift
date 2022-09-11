@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let swinjectArray: [String] = ["1. 如何註冊？", "2. 註冊同樣類型如何區分？", "3. 帶參數注入", "4. 補充"]
+    let swinjectArray: [String] = ["1. 如何註冊？", "2. 註冊同樣類型如何區分？", "3. 帶參數注入", "4. 補充", "5. 依賴注入", "6. 範圍"]
     let resolverArray: [String] = []
     
     override func viewDidLoad() {
@@ -71,6 +71,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             break
         case IndexPath(row: 3, section: 0):
             let vc = story.instantiateViewController(withIdentifier: "RemarkVC") as! RemarkVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 4, section: 0):
+            let vc = story.instantiateViewController(withIdentifier: "InjectionVC") as! InjectionVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 5, section: 0):
+            let vc = story.instantiateViewController(withIdentifier: "ScopeVC") as! ScopeVC
             self.navigationController?.pushViewController(vc, animated: false)
             break
         default:

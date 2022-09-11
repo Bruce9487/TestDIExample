@@ -8,6 +8,7 @@
 import Foundation
 
 class PetOwner: Person {
+    
     let name: String
     let pet: Animal
 

@@ -20,6 +20,11 @@
 		DA0614AB28CE1AF800129D6A /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614AA28CE1AF800129D6A /* Horse.swift */; };
 		DA0614AD28CE22E000129D6A /* ParametersInjectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614AC28CE22E000129D6A /* ParametersInjectionVC.swift */; };
 		DA0614AF28CE26FD00129D6A /* RemarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614AE28CE26FD00129D6A /* RemarkVC.swift */; };
+		DA0614B528CE301200129D6A /* InjectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614B428CE301200129D6A /* InjectionVC.swift */; };
+		DA0614B728CE302500129D6A /* ScopeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614B628CE302500129D6A /* ScopeVC.swift */; };
+		DA0614B928CE3FDB00129D6A /* PetOwner2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614B828CE3FDB00129D6A /* PetOwner2.swift */; };
+		DA0614BB28CE400000129D6A /* PetOwner3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614BA28CE400000129D6A /* PetOwner3.swift */; };
+		DA0614BD28CE406B00129D6A /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614BC28CE406B00129D6A /* NewPerson.swift */; };
 		DAEA34DB28CBA16800B48604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA34DA28CBA16800B48604 /* AppDelegate.swift */; };
 		DAEA34DD28CBA16800B48604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA34DC28CBA16800B48604 /* SceneDelegate.swift */; };
 		DAEA34E228CBA16800B48604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEA34E028CBA16800B48604 /* Main.storyboard */; };
@@ -68,6 +73,11 @@
 		DA0614AA28CE1AF800129D6A /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
 		DA0614AC28CE22E000129D6A /* ParametersInjectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersInjectionVC.swift; sourceTree = "<group>"; };
 		DA0614AE28CE26FD00129D6A /* RemarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkVC.swift; sourceTree = "<group>"; };
+		DA0614B428CE301200129D6A /* InjectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionVC.swift; sourceTree = "<group>"; };
+		DA0614B628CE302500129D6A /* ScopeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeVC.swift; sourceTree = "<group>"; };
+		DA0614B828CE3FDB00129D6A /* PetOwner2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner2.swift; sourceTree = "<group>"; };
+		DA0614BA28CE400000129D6A /* PetOwner3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner3.swift; sourceTree = "<group>"; };
+		DA0614BC28CE406B00129D6A /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
 		DAEA34D728CBA16800B48604 /* TestDIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEA34DA28CBA16800B48604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEA34DC28CBA16800B48604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +149,7 @@
 			children = (
 				DA06147A28CDF1F000129D6A /* Animal.swift */,
 				DA06147C28CDF20B00129D6A /* Person.swift */,
+				DA0614BC28CE406B00129D6A /* NewPerson.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -149,6 +160,8 @@
 				DA06147E28CDF22200129D6A /* Dog.swift */,
 				DA0614AA28CE1AF800129D6A /* Horse.swift */,
 				DA06148228CDF24D00129D6A /* PetOwner.swift */,
+				DA0614B828CE3FDB00129D6A /* PetOwner2.swift */,
+				DA0614BA28CE400000129D6A /* PetOwner3.swift */,
 				DA0614A828CE1ADF00129D6A /* Turtle.swift */,
 			);
 			path = Models;
@@ -190,6 +203,8 @@
 				DA0614A428CE1A7B00129D6A /* MutiSameServiceVC.swift */,
 				DA0614AC28CE22E000129D6A /* ParametersInjectionVC.swift */,
 				DA0614AE28CE26FD00129D6A /* RemarkVC.swift */,
+				DA0614B428CE301200129D6A /* InjectionVC.swift */,
+				DA0614B628CE302500129D6A /* ScopeVC.swift */,
 			);
 			path = Swinject;
 			sourceTree = "<group>";
@@ -492,13 +507,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0614B928CE3FDB00129D6A /* PetOwner2.swift in Sources */,
+				DA0614BB28CE400000129D6A /* PetOwner3.swift in Sources */,
+				DA0614B728CE302500129D6A /* ScopeVC.swift in Sources */,
 				DA0614A528CE1A7B00129D6A /* MutiSameServiceVC.swift in Sources */,
 				DA0614A928CE1ADF00129D6A /* Turtle.swift in Sources */,
 				DA0614AB28CE1AF800129D6A /* Horse.swift in Sources */,
 				DA06147D28CDF20B00129D6A /* Person.swift in Sources */,
+				DA0614B528CE301200129D6A /* InjectionVC.swift in Sources */,
 				DA0614AF28CE26FD00129D6A /* RemarkVC.swift in Sources */,
 				DA06148528CDF29D00129D6A /* RegisterExampleVC.swift in Sources */,
 				DA06147F28CDF22200129D6A /* Dog.swift in Sources */,
+				DA0614BD28CE406B00129D6A /* NewPerson.swift in Sources */,
 				DA06148328CDF24D00129D6A /* PetOwner.swift in Sources */,
 				DA0614AD28CE22E000129D6A /* ParametersInjectionVC.swift in Sources */,
 				DA06147B28CDF1F000129D6A /* Animal.swift in Sources */,
