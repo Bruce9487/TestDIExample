@@ -1,0 +1,20 @@
+PODS:
+  - Resolver (1.5.0)
+  - Swinject (2.8.2)
+
+DEPENDENCIES:
+  - Resolver
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Resolver
+    - Swinject
+
+SPEC CHECKSUMS:
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
+  Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
+
+PODFILE CHECKSUM: 40f703e26e65cd0f66152549c9cc8aac8cf1ab0e
+
+COCOAPODS: 1.11.2
