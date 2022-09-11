@@ -10,6 +10,7 @@ import Swinject
 
 class InjectionVC: UIViewController {
     
+    //註冊
     let container: Container = {
         let container = Container()
         container.register(Animal.self) { _ in Dog(name: "Jack") }

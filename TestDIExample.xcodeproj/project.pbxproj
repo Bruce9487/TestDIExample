@@ -25,6 +25,7 @@
 		DA0614B928CE3FDB00129D6A /* PetOwner2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614B828CE3FDB00129D6A /* PetOwner2.swift */; };
 		DA0614BB28CE400000129D6A /* PetOwner3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614BA28CE400000129D6A /* PetOwner3.swift */; };
 		DA0614BD28CE406B00129D6A /* NewPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614BC28CE406B00129D6A /* NewPerson.swift */; };
+		DA0614BF28CE472800129D6A /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0614BE28CE472800129D6A /* Parent.swift */; };
 		DAEA34DB28CBA16800B48604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA34DA28CBA16800B48604 /* AppDelegate.swift */; };
 		DAEA34DD28CBA16800B48604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEA34DC28CBA16800B48604 /* SceneDelegate.swift */; };
 		DAEA34E228CBA16800B48604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEA34E028CBA16800B48604 /* Main.storyboard */; };
@@ -78,6 +79,7 @@
 		DA0614B828CE3FDB00129D6A /* PetOwner2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner2.swift; sourceTree = "<group>"; };
 		DA0614BA28CE400000129D6A /* PetOwner3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetOwner3.swift; sourceTree = "<group>"; };
 		DA0614BC28CE406B00129D6A /* NewPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPerson.swift; sourceTree = "<group>"; };
+		DA0614BE28CE472800129D6A /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
 		DAEA34D728CBA16800B48604 /* TestDIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEA34DA28CBA16800B48604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEA34DC28CBA16800B48604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				DA06147E28CDF22200129D6A /* Dog.swift */,
 				DA0614AA28CE1AF800129D6A /* Horse.swift */,
+				DA0614BE28CE472800129D6A /* Parent.swift */,
 				DA06148228CDF24D00129D6A /* PetOwner.swift */,
 				DA0614B828CE3FDB00129D6A /* PetOwner2.swift */,
 				DA0614BA28CE400000129D6A /* PetOwner3.swift */,
@@ -517,6 +520,7 @@
 				DA0614B528CE301200129D6A /* InjectionVC.swift in Sources */,
 				DA0614AF28CE26FD00129D6A /* RemarkVC.swift in Sources */,
 				DA06148528CDF29D00129D6A /* RegisterExampleVC.swift in Sources */,
+				DA0614BF28CE472800129D6A /* Parent.swift in Sources */,
 				DA06147F28CDF22200129D6A /* Dog.swift in Sources */,
 				DA0614BD28CE406B00129D6A /* NewPerson.swift in Sources */,
 				DA06148328CDF24D00129D6A /* PetOwner.swift in Sources */,
