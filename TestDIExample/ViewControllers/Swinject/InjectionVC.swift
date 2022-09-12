@@ -33,7 +33,6 @@ class InjectionVC: UIViewController {
                 owner.pet = r.resolve(Animal.self)
             }
         
-        
         //方法注入
         container.register(NewPerson.self) { r in
             let owner = PetOwner3()

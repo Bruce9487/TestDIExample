@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let swinjectArray: [String] = ["1. 如何註冊？", "2. 註冊同樣類型如何區分？", "3. 帶參數注入", "4. 補充", "5. 依賴注入", "6. 範圍"]
-    let resolverArray: [String] = []
+    let resolverArray: [String] = ["1. 如何註冊？", "2. 註冊同樣類型如何區分？", "3. 帶參數注入", "4. 依賴注入"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,6 +79,22 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             break
         case IndexPath(row: 5, section: 0):
             let vc = story.instantiateViewController(withIdentifier: "ScopeVC") as! ScopeVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 0, section: 1):
+            let vc = story.instantiateViewController(withIdentifier: "ResolverRegitsterExampleVC") as! ResolverRegitsterExampleVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 1, section: 1):
+            let vc = story.instantiateViewController(withIdentifier: "ResolverMutiSameServiceVC") as! ResolverMutiSameServiceVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 2, section: 1):
+            let vc = story.instantiateViewController(withIdentifier: "ResolverParameterInjectionVC") as! ResolverParameterInjectionVC
+            self.navigationController?.pushViewController(vc, animated: false)
+            break
+        case IndexPath(row: 3, section: 1):
+            let vc = story.instantiateViewController(withIdentifier: "ResolverInjectionVC") as! ResolverInjectionVC
             self.navigationController?.pushViewController(vc, animated: false)
             break
         default:

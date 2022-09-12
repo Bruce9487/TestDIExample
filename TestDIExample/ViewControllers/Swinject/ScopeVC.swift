@@ -17,7 +17,8 @@ class ScopeVC: UIViewController {
         container.register(Animal.self, name: "turtle") { _ in Turtle(name: "R") }.inObjectScope(.graph)
         
         container.register(Person.self, name: "parent") { r in
-            Parent(name: "Peter", child: r.resolve(Person.self, name:"child")! as! PetOwner, pet: r.resolve(Animal.self, name:"dog")!)
+            Parent(name: "Peter", child: r.resolve(Person.self, name:"child")! as! PetOwner,
+                   pet: r.resolve(Animal.self, name:"dog")!)
         }.inObjectScope(.graph)
         
         container.register(Person.self, name: "child") { r in
@@ -32,10 +33,12 @@ class ScopeVC: UIViewController {
 
         //Graph (Default)
         let parent = container.resolve(Person.self, name: "parent")!
+        let petOwner = container.resolve(Person.self, name: "child")!
         let pet1 = (parent as! Parent).pet
         let pet2 = (parent as! Parent).child.pet
         
         print("[ScopeVC] parent:", parent)
+        print("[ScopeVC] petOwner:", petOwner)
         print("[ScopeVC] pet1:", pet1)
         print("[ScopeVC] pet2:", pet2)
     }
