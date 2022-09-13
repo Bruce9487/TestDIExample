@@ -11,3 +11,4 @@ import Foundation
     var name: String { get }
     @objc optional var running: Bool { get }
 }
+
